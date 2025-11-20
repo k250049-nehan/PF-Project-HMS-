@@ -131,7 +131,7 @@ void addPatient() {
         return;
     }
 
-    struct Patient p;//p is the alias so we dont write patient everytime
+    struct Patient p;//p is the alias/object so we dont write patient everytime
     p.id=patientCount+1;
     p.bill=0;
     p.admitted=1;
@@ -327,3 +327,4 @@ int main(){
     printf("\nThank You for using HMS created by Nehan Malik and Zainab Zehra!\n");
     return 0;
 }
+
